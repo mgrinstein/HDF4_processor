@@ -29,6 +29,6 @@ python main.py
 The script will parse metadata, extract the dataset, and generate a visualisation.
 
 ## Visualisation example
-RCCM category count dataset plot for files in `/sample_data`:
+MISR RCCM category count dataset plot (Feb 2000):
 
 ![RCCM category count dataset plot](plot_example.png)
