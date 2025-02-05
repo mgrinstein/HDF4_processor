@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 
-def plot_data(data, coordinates, category_index=0, band_index=0):
+def plot_data(data, coordinates, dataset_name, category_index=0, band_index=0):
     """Plot 2D data on a map using Cartopy."""
     data_2d = data[:, :, category_index, band_index]
     
@@ -19,7 +19,7 @@ def plot_data(data, coordinates, category_index=0, band_index=0):
     lon, lat = np.meshgrid(lon, lat)
     
     c = ax.pcolormesh(lon, lat, data_2d, transform=ccrs.PlateCarree(), cmap='viridis')
-    plt.colorbar(c, ax=ax, orientation='vertical', label='RCCM Count')
+    plt.colorbar(c, ax=ax, orientation='vertical', label=dataset_name)
     ax.set_title(f'Category {category_index} - Band {band_index}')
     plt.tight_layout()
     plt.show()

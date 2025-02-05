@@ -10,7 +10,7 @@ def main():
     data = read_hdf_data(HDF_FILE_PATH, DATASET_NAME)
     print(f"Dataset Shape: {data.shape}")
     
-    plot_data(data, coordinates)
+    plot_data(data, coordinates, DATASET_NAME)
 
 if __name__ == "__main__":
     main()
