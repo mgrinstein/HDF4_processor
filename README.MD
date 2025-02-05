@@ -1,7 +1,7 @@
 # HDF4 Processor  
 
 ## Overview  
-**HDF4 Processor** is a Python tool designed for extracting, processing, and visualising satellite data stored in HDF4 format. It supports geospatial metadata parsing, dataset extraction, and mapping using Cartopy.  
+**HDF4 Processor** is a Python tool designed for extracting, processing, and visualising satellite data stored in HDF4 format. It supports geospatial metadata parsing, dataset extraction, and mapping.  
 
 ## Features  
 - Parses metadata from HDF4 XML files.  
