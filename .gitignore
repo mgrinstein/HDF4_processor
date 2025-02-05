@@ -3,3 +3,6 @@ __pycache__/
 
 # Virtual environment directories
 myenv/
+
+# Sample datasets and metadata
+sample_data/

@@ -16,8 +16,13 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-Edit the file paths (metadata and dataset) in `config.py`.
-Run the main script:
+1. **Download the dataset and metadata files:**
+Obtain the HDF4 dataset and corresponding XML metadata files from a reliable source. For instance, you can use data from NASA's [MISR Level 3 Data Browser](https://l0dup05.larc.nasa.gov/L3Web/view).
+
+2. **Configure file paths:**
+Edit the file paths for the metadata and dataset in `config.py` to match the location of the files you downloaded.
+
+3. **Run the main script:**
 ```sh
 python main.py
 ```
@@ -26,4 +31,4 @@ The script will parse metadata, extract the dataset, and generate a visualisatio
 ## Visualisation example
 RCCM category count dataset plot for files in `/sample_data`:
 
-![RCCM category count dataset plot](/sample_data/plot_example.png)
+![RCCM category count dataset plot](plot_example.png)
