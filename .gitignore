@@ -6,3 +6,6 @@ myenv/
 
 # Sample datasets and metadata
 sample_data/
+
+# System-specific files
+.DS_Store
